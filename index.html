@@ -10,10 +10,25 @@
     nav { background: #0a472e; padding: 10px 20px; }
     nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
     header { text-align: center; padding: 30px 20px 10px; }
-    main { max-width: 800px; margin: auto; padding: 20px; }
+    main { max-width: 800px; margin: auto; padding: 20px; text-align: center; }
     h1, h2 { color: #0a472e; }
-    iframe { width: 100%; border: none; }
+    .button {
+      background-color: #0a472e;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 30px;
+    }
+    .button:hover {
+      background-color: #0d5c3a;
+    }
     footer { text-align: center; font-size: 0.8em; padding: 20px; }
+    img.logo { max-width: 180px; margin-bottom: 20px; }
   </style>
 </head>
 <body>
@@ -25,18 +40,16 @@
 </nav>
 
 <header>
-  <h1>Dump Smart</h1>
+  <img src="logo.png" alt="Dump Smart Logo" class="logo" />
+  <h1>Welcome to Dump Smart</h1>
   <p><strong>Toss Your Junk The Smart Way</strong></p>
 </header>
 
 <main>
-  <h2>Sign Up Form</h2>
-  <iframe 
-    src="https://docs.google.com/forms/d/e/1FAIpQLSeN9mI6zLFUKtlaCfkY5mVbysssJ2XWMQfAlPKjv-LCM3lyqg/viewform?embedded=true" 
-    height="900">
-    Loading…
-  </iframe>
-  <p style="text-align:center;">We’ll be in touch once we finalize our location and opening date.</p>
+  <p>We offer a gated, secure location for you to drop off your junk hassle-free.</p>
+  <p>Surveillance, strict rules, and flexible membership options — built for homeowners and contractors.</p>
+
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXltTK0ff33JBOGTKJ6vCPUB49Y6iDs4AKcqQZF2IRIKPTfQ/viewform?usp=sharing" target="_blank" class="button">Sign Up Now</a>
 </main>
 
 <footer>
