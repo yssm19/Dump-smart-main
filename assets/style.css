@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #1e7036, #78c27c);
+    background: radial-gradient(circle at top left, #a4de91, #2d7033);
     color: white;
 }
 header {
