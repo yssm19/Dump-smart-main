@@ -3,17 +3,43 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #0a472e;
+  color: white;
   text-align: center;
 }
 nav {
-  background: #333;
+  background: #073221;
   padding: 10px;
 }
 nav a {
   color: white;
   margin: 0 15px;
   text-decoration: none;
+  font-size: 1.2em;
 }
 main {
   padding: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a.button {
+  display: inline-block;
+  background: #1e5631;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 6px;
+  font-size: 1.1em;
+}
+@media (max-width: 600px) {
+  nav a {
+    font-size: 1em;
+  }
+  a.button {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
 }
