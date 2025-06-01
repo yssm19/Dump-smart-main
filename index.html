@@ -1,98 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dump Smart</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #0a472e;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    nav {
-      width: 100%;
-      background-color: #073221;
-      padding: 20px;
-      display: flex;
-      justify-content: center;
-      gap: 50px;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-size: 1.3em;
-      font-weight: bold;
-    }
-    .main {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      padding: 60px 20px;
-      max-width: 1200px;
-    }
-    .left {
-      max-width: 500px;
-      padding: 20px;
-    }
-    .left h1 {
-      font-size: 4em;
-      margin: 0;
-    }
-    .left h2 {
-      font-size: 2em;
-      margin: 20px 0;
-      font-weight: normal;
-    }
-    .left p {
-      font-size: 1.1em;
-      line-height: 1.6;
-      margin-bottom: 30px;
-    }
-    .button {
-      display: inline-block;
-      padding: 15px 30px;
-      background-color: #1e5631;
-      color: white;
-      text-decoration: none;
-      font-size: 1.2em;
-      border-radius: 8px;
-    }
-    .right img {
-      max-width: 300px;
-      height: auto;
-      margin: 20px;
-    }
-    @media (max-width: 768px) {
-      .main {
-        flex-direction: column;
-        text-align: center;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Dump Smart</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Rules</a>
-    <a href="#">Membership</a>
-  </nav>
-
-  <div class="main">
-    <div class="left">
-      <h1>Dump Smart</h1>
-      <h2>Toss your junk<br>the smart way</h2>
-      <p>We offer a secure, gated location for homeowners and contractors to dump household junk — including flooring, cabinets, appliances, and yard debris.</p>
-      <a href="#" class="button">Sign Up Now</a>
-    </div>
-    <div class="right">
-      <img src="lightbulb.png" alt="Lightbulb Junk Illustration">
-    </div>
-  </div>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="rules.html">Rules</a>
+            <a href="membership.html">Membership</a>
+        </nav>
+    </header>
+    <main class="home">
+        <div class="left">
+            <h1>Dump Smart</h1>
+            <h2>Toss your junk the smart way</h2>
+            <p>We offer a secure, gated location for homeowners and contractors to dump household junk — including flooring, cabinets, appliances, and yard debris.</p>
+            <a class="button" href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" target="_blank">Sign Up Now</a>
+        </div>
+        <div class="right">
+            <img src="assets/logo.png" alt="Dump Smart Logo" class="logo">
+        </div>
+    </main>
 </body>
 </html>
